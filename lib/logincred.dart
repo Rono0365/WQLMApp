@@ -36,7 +36,7 @@ class _logincred2State extends State<logincred2> {
       floatingActionButton: !fab
           ? Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
               FloatingActionButton.extended(
-                backgroundColor: Colors.yellow,
+                backgroundColor: Colors.blue,
                 onPressed: () {
                   setState(() {
                     Navigator.push(
@@ -65,7 +65,7 @@ class _logincred2State extends State<logincred2> {
           : Container(),
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Enter Account"),
+        title: Text(""),
         elevation: 0.0,
         backgroundColor: Colors.blue.shade50,
       ),
@@ -96,16 +96,17 @@ class _logincred2State extends State<logincred2> {
                 Container(
                   height: 100,
                   child: Text(
-                    "Thika Water and Sewarage Company",
+                    "WQLM\napp",
                     style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
                   // child: Image.asset("assets/greensoko-removebg-preview.png")
                 ),
+
                 Container(
                   height: 100,
                   child: Text(
-                    "Water is life",
+                    "(Water is life)",
                     style: TextStyle(fontWeight: FontWeight.normal),
                     textAlign: TextAlign.center,
                   ),
